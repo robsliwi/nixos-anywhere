@@ -6,7 +6,7 @@
     flake-parts = { url = "github:hercules-ci/flake-parts"; inputs.nixpkgs-lib.follows = "nixpkgs"; };
 
     # used for testing
-    disko = { url = "github:nix-community/disko/master"; inputs.nixpkgs.follows = "nixpkgs"; };
+    disko = { url = "github:nix-community/disko/8c7a848854a7fe29adb2e3b4577524084b571c52"; inputs.nixpkgs.follows = "nixpkgs"; };
     nixos-stable.url = "github:NixOS/nixpkgs/nixos-24.11";
     nixos-images.url = "github:nix-community/nixos-images";
     nixos-images.inputs.nixos-unstable.follows = "nixpkgs";
